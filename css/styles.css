@@ -51,10 +51,6 @@ img {
   list-style: none;
 }
 
-.address {
-  font-style: normal;
-}
-
 /* || BLOCKS */
 
 .header {
@@ -103,6 +99,7 @@ img {
 }
 
 .address {
+  font-style: normal;
   display: flex;
   align-items: center;
 }
@@ -112,6 +109,29 @@ img {
   text-align: center;
   color: var(--white);
   padding: 188px 0;
+}
+
+.hero-button {
+  background-color: var(--iris);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--ocean);
+  cursor: pointer;
 }
 
 .feature-section {
@@ -124,6 +144,7 @@ img {
 
 .section-team {
   padding: 120px 0;
+  background-color: var(--cloud);
 }
 
 .project-section {
@@ -140,6 +161,42 @@ img {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
+}
+
+.card-item {
+  background-color: var(--white);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.footer {
+  background-color: var(--navy-blue);
+  padding: 100px 0;
+}
+
+.footer .logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--iris);
+  background-color: var(--cloud);
+  padding: 12px 24px;
+  border: 1px solid var(--cornflower);
+  border-radius: 4px;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+  cursor: pointer;
+  border: 1px solid transparent;
 }
 
 /* || ELEMENTS */
@@ -261,6 +318,23 @@ img {
   margin-bottom: 8px;
 }
 
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  max-width: 496px;
+  margin: 0 auto 48px;
+}
+
+.logo__footer {
+  color: var(--cloud);
+}
+
+.footer .item-text {
+  max-width: 264px;
+  color: var(--cloud);
+}
+
 /* || MODIFIER */
 
 .visually-hidden {
@@ -275,101 +349,4 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-/* END OF GENERAL STYLES */
-
-/* HEADER SECTION */
-
-/* HERO SECTION */
-
-.hero-title {
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  max-width: 496px;
-  margin: 0 auto 48px;
-}
-
-.hero-button {
-  background-color: var(--iris);
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: var(--white);
-  display: block;
-  min-width: 169px;
-  height: 56px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin: 0 auto;
-}
-
-.hero-button:hover,
-.hero-button:focus {
-  background-color: var(--ocean);
-  cursor: pointer;
-}
-
-/* FEATURE SECTION */
-
-/* TEAM SECTION */
-.section-team {
-  background-color: var(--cloud);
-}
-
-.card-item {
-  background-color: var(--white);
-  border-radius: 0px 0px 4px 4px;
-}
-
-/* FOOTER SECTION */
-
-.footer {
-  background-color: var(--navy-blue);
-  padding: 100px 0;
-}
-
-/* .footer .span,
-.footer .item-text {
-  color: var(--cloud);
-} */
-
-.footer .logo {
-  display: inline-block;
-  margin-bottom: 16px;
-}
-
-.logo__footer {
-  color: var(--cloud);
-}
-
-.footer .item-text {
-  max-width: 264px;
-  color: var(--cloud);
-}
-
-/* PAGE SECTION */
-.button {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: var(--iris);
-  background-color: var(--cloud);
-  padding: 12px 24px;
-  border: 1px solid var(--cornflower);
-  border-radius: 4px;
-}
-
-.button:hover,
-.button:focus {
-  color: var(--white);
-  background-color: var(--ocean);
-  cursor: pointer;
-  border: 1px solid transparent;
 }
