@@ -228,6 +228,16 @@ img {
   fill: currentColor;
 }
 
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: var(--cloud);
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
 /* || ELEMENTS */
 
 .menu-link {
