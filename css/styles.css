@@ -277,12 +277,12 @@ img {
 }
 
 .logo-footer-container {
-  /* gap: 120px; */
+  margin-right: 120px;
 }
 
 .footer-svg {
   display: flex;
-  /* gap: 16px; */
+  gap: 16px;
 }
 
 .footer-svg-item {
